@@ -1,0 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^([a-z]+)$ index.php?action=$1 [L]
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)$ index.php?action=$1&view=$2	
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)$ index.php?action=$1&view=$2&var=$3
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)$ index.php?action=$1&view=$2&var=$3&varx=$4
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-(.*)$ index.php?action=$1&view=$2&var=$3&varx=$4&varxx=$5
+
+					
+				

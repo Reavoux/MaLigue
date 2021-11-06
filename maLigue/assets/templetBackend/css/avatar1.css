@@ -1,0 +1,21 @@
+#headshot img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+#headshot {
+    width: 20%;
+    float: none;
+}
+
+
+.image {
+    background-size: cover;
+    width: auto;
+    height: 202.36px;
+    }
+
+ .image img {
+    display: none;
+    }

@@ -1,0 +1,127 @@
+#mainNav .navbar-nav > li.nav-item > a.nav-link {
+  color: #fff;
+  /* background: blueviolet; */
+  
+}
+
+/* Le voile de la nav barre */
+  #mainNav.is-fixed {
+    background:darkgrey;
+  }
+
+/* Boutton menu  */
+  #mainNav.is-fixed .navbar-brand {
+    color: #fff;
+  }
+
+  #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
+    color: greenyellow;
+}
+
+#mainNav {
+  background: transparent;
+}
+.navbar-light .navbar-toggler {
+  color: #0085A1;
+  border-color: #0085A1;
+}
+
+#mainNav .navbar-brand {
+  color: #fff;
+  /*background: blue;*/
+}
+
+#mainNav:hover {
+  color: #0085A1;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: greenyellow;
+  background-color: transparent;
+}
+
+.dropdown-item, .dropdown-item:focus {
+  color: #fff;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+  color: greenyellow;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+color: greenyellow;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+
+.navbar-light .navbar-toggler:hover {
+  color: greenyellow;
+  border-color: greenyellow;
+}
+
+.divan {
+  float:right;
+  }
+
+  .test {
+    text-align: left;
+  }
+
+.video{
+  float: left;
+}
+
+  .vidtext{
+    text-align: center;
+  
+  }
+  
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: initial;
+  }
+  
+  /*Liste des associations*/
+  ul.lien > li:hover{
+    color: greenyellow;
+    text-decoration: underline;
+  }
+
+  ul.lien > li > a:visited {
+      color: purple;
+
+  }
+
+  .jump {
+    position: relative;
+    font-size: 5rem;
+  }
+  .jump span {
+    /*font-family: 'Alfa Slab One', cursive;*/
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: jump 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  }
+  
+  @keyframes jump {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+
+  
